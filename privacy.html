@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Feed Filter privacy policy</title>
+<style>
+:root{color-scheme:light dark;font:16px/1.65 system-ui,sans-serif}body{max-width:720px;margin:40px auto;padding:0 24px}h1{line-height:1.2}h2{font-size:19px;margin-top:28px}a{color:inherit;text-underline-offset:3px}small{opacity:.75}
+</style>
+<main>
+<h1>Feed Filter privacy policy</h1>
+<p><small>Effective November 4, 2026 · Version 0.4.4</small></p>
+<p>Feed Filter is an independent extension that hides YouTube Home and watch-sidebar recommendations using filters you choose. It is not affiliated with or endorsed by YouTube or Google. The publisher is the maintainer of <a href="https://github.com/uzuw/yt_filter">uzuw/yt_filter</a>.</p>
+<h2>Information used to filter recommendations</h2>
+<p>When filtering is enabled and you have chosen a category or topic, the extension reads recommendation titles, channel names, video links and video IDs on YouTube. It compares these with your filters locally in your browser. It also checks YouTube's published video categories and tags by requesting the watch-page HTML for recommendations near the viewport. It does not analyze video frames, audio or thumbnails.</p>
+<h2>Information stored on your device</h2>
+<p>Your enabled/paused setting, chosen categories and custom topics are saved in your browser profile using chrome.storage.local. They are not synced by this extension or sent to the developer. Custom topics can contain personal information you choose to type; only enter topics you are comfortable storing in this browser profile. This storage is not an encrypted vault.</p>
+<p>Video IDs, categories, tags and unavailable lookup results are cached in tab memory until the YouTube tab is refreshed or closed. Changing a rule or pausing does not erase this cache. The extension does not save a viewing-history log to disk.</p>
+<h2>Requests to YouTube</h2>
+<p>Metadata lookups send the recommended video's ID to https://www.youtube.com using HTTPS. These extra requests omit account cookies and omit the referring page URL. YouTube still receives the video ID, your IP address and standard browser/network information, and may log requests under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. Omitting cookies does not make a request anonymous.</p>
+<p>The extension does not send your custom topics or category selections with these requests. It makes no requests to a developer server, advertising service, analytics service or AI provider. No fetched scripts, players or page resources are executed.</p>
+<h2>Limited use</h2>
+<p>Information is used only to provide the recommendation-filtering feature you choose. Feed Filter's use of user data complies with the Chrome Web Store User Data Policy, including its Limited Use requirements. The developer does not sell user data, use it for advertising or credit decisions, or transfer it to data brokers. No analytics, telemetry, account registration or payments are implemented.</p>
+<h2>Your controls and deletion</h2>
+<p>Edit or remove topics and categories in the popup. Pause filtering to restore recommendations and stop new metadata lookups; requests already in progress may finish. Refresh or close a YouTube tab to clear its metadata cache. Uninstalling the extension removes its locally stored settings. Browser/profile backups are controlled by your browser and operating system.</p>
+<h2>Scope and permissions</h2>
+<p>The extension runs only on https://www.youtube.com and requests the storage permission to save your settings. It does not request browser history, cookies, microphone, camera or access to other websites. YouTube browsing data is used only as needed for the filtering feature; it is not a general browsing tracker.</p>
+<h2>Questions and changes</h2>
+<p>For privacy questions, contact the maintainer through the <a href="https://github.com/uzuw/feed-filter-site/issues">project's support tracker</a> or <a href="https://github.com/uzuw">publisher profile</a>. Avoid including private browsing information in a public issue. Changes to data practices will be reflected in this policy and, when required, disclosed in the extension before those practices take effect.</p>
+</main>
+</html>

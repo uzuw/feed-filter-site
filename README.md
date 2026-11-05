@@ -1,2 +1,7 @@
-# feed-filter-site
-Privacy, support and launch information for Feed Filter.
+# Feed Filter documentation
+
+Public privacy, support and early-preview information.
+
+Site: https://uzuw.github.io/feed-filter-site/
+
+Chrome Web Store submission is still being prepared.
